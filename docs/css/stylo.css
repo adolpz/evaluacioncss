@@ -1,0 +1,120 @@
+/* selector universal */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+/* estilo para el cuerpo de la pagina */
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgb(4, 77, 99) 0%,
+      rgb(5, 160, 199) 52%,
+      rgba(0, 212, 255, 1) 100%
+    );
+  }
+
+  section h2 {
+    background-color: rgb(208, 252, 16);
+    margin: 10px auto;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+
+  .img{
+    background-color: rgb(22, 56, 114);
+    color: rgb(254, 254, 254);
+    width: 200px;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+  }
+
+p{
+    text-transform: lowercase;
+    font-weight: bolder;
+}
+
+  /* tablas */
+table{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(137, 213, 216);
+    border: 5px solid black;
+    border-collapse:collapse ;
+    border-spacing: 0px;
+    margin-bottom: 50px;
+}
+
+table caption{
+    background-color: rgb(92, 91, 84);
+    color: rgb(14, 13, 13);
+    font-size: 25px;
+    padding: 20px;
+}
+
+table tr th,
+table tr td{
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+table tr:nth-child(even){
+    background-color: rgb(103, 119, 141);
+}
+
+table td:nth-child{
+    text-align: center;
+}
+
+
+.imgs img{
+    background-color: rgb(22, 56, 114);
+    color: rgb(254, 254, 254);
+    width: 200px;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+  }
+
+  .contform{
+    background-color: aliceblue;
+    width: 60%;
+    margin: 10px auto;
+    padding: 15px;
+
+}
+
+
+.bt{
+    background-color: aqua;
+    color: black;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+  .contenido{
+    background-color: rgb(112, 211, 206);
+    width: 80%;
+    margin: auto;
+    }
+
+    .lista{
+        padding: 50px;
+        color: brown;
+        font-weight: bold;
+    }
